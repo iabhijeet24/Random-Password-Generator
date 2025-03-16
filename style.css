@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+
+}
+
+body{
+    background-color: #130F40
+}
+.mainDiv{
+    height: 60vh;
+    width: 50%;
+    position: absolute;
+    display: flex;
+    
+    
+}
