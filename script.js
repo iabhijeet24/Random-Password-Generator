@@ -5,7 +5,7 @@ const symbol = "%$#@&*.";
 
 const variables = upperCase+lowerCase+symbol+number;
 
-let passwordLength = 12;
+let passwordLength = document.getElementById("number");
 let capacity = 0;
 
 function generator(){
@@ -19,3 +19,5 @@ function generator(){
         return password;
     
 }
+
+newpassword.innerText = password
